@@ -1,0 +1,136 @@
+/* HEADER */
+html, body {
+    margin-top: 12px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#navbarSupportedContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3%;
+}
+
+.navbar-brand{
+    font-size: 250%;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.nav-item{
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: large;
+}
+
+/* BODY */
+.img-planing{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.first-card{
+  margin: 4% 3% 0% 2%; /*top right bottom left*/
+}
+
+.body-button{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 130%;
+  padding: 5px 20px;
+}
+
+.img-analyse{
+  margin: 3% 3% 0% 2% ;
+}
+
+.second-card{
+  margin: 7% 3% 0% 2%;
+}
+
+.third-card{
+  margin: 8% 3% 5% 0%;
+}
+
+
+.semi-circle {
+  width: 450px; /* Adjust to fit the size of your content */
+  height: 320px; /* This should be half the width to make a perfect semi-circle */
+  background-image: linear-gradient(orange, yellow);
+  /* border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; */
+  border-radius: 30% 70% 83% 17% / 35% 73% 27% 65% ;
+  overflow: hidden;
+  position: relative; /* This makes it a containing block for absolute positioning */
+}
+
+.truck-image {
+  position: absolute;
+  bottom: 0; /* Aligns the bottom of the image with the bottom of the semi-circle */
+  left: 50%; /* Centers the image */
+  transform: translateX(-50%); /* Centers the image exactly */
+  width: auto; /* Keep the image's aspect ratio */
+  height: 80%; /* Adjust the image to fit the semi-circle height */
+}
+
+
+/* FOOTER */
+.footer-links{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.footer-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#btn-language{
+    background-color: transparent;
+    border-width: 0;
+}
+.btn.active {
+  background-color: white;
+  color: black; /* Or any other text color you want for the active state */
+  border-color: transparent;
+}
+
+/* .btn {
+  background-color: orange;
+} */
+
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Center icons horizontally */
+  align-items: center; /* Center icons vertically */
+  /* Add spacing and other styles as needed */
+}
+
+.social-icons a {
+  margin: 0 5px; /* Spacing between icons */
+  color: #fff; /* Icon color, if using Font Awesome */
+  /* More styles */
+}
+
+.social-icons img {
+  width: 24px; /* Set your desired size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* For Font Awesome icons */
+.social-icons i {
+  font-size: 24px; /* Icon size */
+}

@@ -1,0 +1,183 @@
+
+.searchBar form {
+    width: 500px; 
+    margin-top: 100px;
+  }
+
+.searchInput{
+    border-color: black;
+    color: black;
+}
+
+.searchButton{
+    color: black;
+    border-color: black;
+    
+}
+
+.searchButton:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+
+.dropDown {
+    margin-top: 30px;
+}
+
+.dropButton{
+    width: 500px; 
+    text-align: left;
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
+
+.dropButton:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.list-group{
+    width: 95%;
+    margin: 2.5%;
+}
+
+.nonSelectedList{
+    width: 49%;
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.SelectedList{
+    width: 49%;
+    height: 100%;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.scrollingList{
+    height: 300px;
+    overflow-y: scroll; 
+    scrollbar-width:none
+}
+
+.containerlistOuter{
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerlistTitle{
+    margin: 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+
+.titleFont{
+    font-size:larger;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+
+.containerListText{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
+
+.containerListButton{
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.listViewButton{
+    color: white;
+    background-color: black;
+    border-color: black;
+    margin-top: 2%;
+}
+
+.listViewButton:hover{ 
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.listSelectionbutton{
+    color: white;
+    background-color: black;
+    border-color: black;
+    margin-top: 2%;
+}
+
+.listSelectionbutton:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.submitButton{
+    text-align: center;
+    margin-top: 2.5%;
+    margin-left: 35%;
+    margin-bottom: 7%;
+    width: 30%;
+    height: 35px;
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+
+    margin-bottom: 10%;
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    padding: 20px;
+  }
+
+  /* Close button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 95%;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
